@@ -8,17 +8,16 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <h3>TEST</h3>
-      <ul id="navbar-content">
-        <li><a href="/index.html"> Serivces </a></li>
-        <li>Projects</li>
-        <li>About</li>
-      </ul>
-      <button>Contact</button>
-      <div class="circle">
-        <span> UL </span>
-      </div>
-    </nav>
+    <form class="form" id="form">
+      <input type="text" placeholder="Search" name="search" id="search" />
+      <button type="submit">Search</button>
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-storage.js"></script>
+    <script src="./scripts.js" type="module"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   </body>
 </html>

@@ -1,68 +1,28 @@
-body{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-.navbar{
-    margin:20px;
-    padding:10px;
-    background-color: rgba(0,0,0,0.5);
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    color:#fff;
-    align-items:center;
-    position: relative;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
-}
-.navbar h3{
-    font-size: 40px;
-    font-weight: 900;
-}
-#navbar-content{
-    display:flex;
-    justify-content: space-between;
-    width:30%;
-    list-style: none;
-}
-#navbar-content li{
-    cursor: pointer;
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-#navbar-content li a{
-    text-decoration: none;
-    color:#fff;
+.form {
+  margin: 3rem;
+  padding: 2rem;
 }
-#navbar-content li a:active{
-    color: #f1f1f1;
+.form input {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid rgb(55, 1, 1);
+  border-radius: 5px;
 }
-#navbar-content li:hover{
-    color: #f00;
-}
-.navbar button{
-    border:1px solid rgb(255, 193, 8);
-    background-color: transparent;
+.form button{
+    padding: 1rem;
+    border: 1px solid rgb(61, 0, 0);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: bold;
     cursor: pointer;
-    color:#fff;
-    border-radius: 15px;
-}
-.navbar button:hover{
-    background-color:#fff;
-    color:#000
-}
-.circle{
-    position: absolute;
-    z-index: 99;
-    color:rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,0.5);
-    display:flex;
-    
-}
-.circle span{
-    margin:auto;
-    font-size: 40px;
-    font-weight: 900;
 }
